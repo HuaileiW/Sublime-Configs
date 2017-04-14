@@ -1,0 +1,30 @@
+<snippet>
+  <content>
+    <![CDATA[
+import React, { Component } from 'react'
+
+export default class ${1:className} extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      ${2: stateKey}: ${3: stateValue},
+    }
+  }
+
+  render() {
+    return (
+      <${4:div}>
+        ${5:detail}
+      </${6:div}>
+    )
+  }
+}]]>
+  </content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rcc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>
+    React: create a react class component
+  </description>
+</snippet>
